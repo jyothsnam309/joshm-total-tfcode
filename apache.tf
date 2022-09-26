@@ -65,6 +65,6 @@ resource "aws_instance" "cicd-apache" {
 
 
   tags = {
-    Name = "cicd-tomcat"
+    Name = "cicd-apache"
   }
 }
